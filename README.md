@@ -1,5 +1,5 @@
 # UnityLSLMarkers
-Asset for sending markers in Unity using LSL with LSL4Unity.
+Asset for sending markers in Unity using LSL with [LSL4Unity](https://github.com/xfleckx/LSL4Unity).
 
 This project includes a Unity asset for easily sending markers using LSL. It consists of two main scripts.
 
