@@ -7,7 +7,7 @@ This project includes a Unity asset for easily sending markers using LSL. It con
 
 * SendMarker.cs is an intermediary class that I created for simplicity of usage (you don’t really need it, but it makes things easier). It has to be in the scene and it requires a reference to an instance of LSLMarkerStream (the class that I described above). This file has some markers defined that I created and that you’ll need to modify for your experiment. In my case, I made sure that the same marker was not sent twice in a row, but you may want to change that.
 
-For using this, you can create a GameObject in your scene that is called ‘LabStreamingLayer’. This object has one LSLMarkerStream and one SendMarker (the former has a reference to the latter).
+For using this, a prefab GameObject called ‘LabStreamingLayer’ is provided. This object has one LSLMarkerStream and one SendMarker (the former has a reference to the latter).
 
 For using this from your experiment script, you get a reference to SendMarker:
 
