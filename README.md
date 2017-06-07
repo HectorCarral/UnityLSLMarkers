@@ -17,4 +17,4 @@ For using this from your experiment script, you get a reference to SendMarker:
 
 And then you use it like this:
 
-    sendMarker.Send (SendMarker.MARKER_MAIN);
+    sendMarker.Send (SendMarker.MARKER_TEST);
