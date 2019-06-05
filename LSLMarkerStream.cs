@@ -9,7 +9,7 @@ namespace Assets.LSL4Unity.Scripts.Custom
     {
         private const string unique_source_id = "D3F83BB699EB49AB94A9FA44B88882AB";
 
-        public string lslStreamName = "markers";
+        public string lslStreamName = "Unity-Markers";
         public string lslStreamType = "Markers";
 
         private liblsl.StreamInfo lslStreamInfo;
